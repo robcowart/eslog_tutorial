@@ -1,0 +1,186 @@
+{
+  "order": 0,
+  "version": 56301,
+  "template": "blackridge-*",
+  "settings": {
+    "index": {
+      "number_of_shards": 2,
+      "number_of_replicas": 1,
+      "refresh_interval": "5s",
+      "codec": "best_compression"
+    }
+  },
+  "mappings": {
+    "_default_": {
+      "dynamic_templates": [
+        {
+          "message_field": {
+            "match_mapping_type": "string",
+            "path_match": "message",
+            "mapping": {
+              "norms": false,
+              "type": "text"
+            }
+          }
+        },
+        {
+          "string_fields": {
+            "match_mapping_type": "string",
+            "match": "*",
+            "mapping": {
+              "norms": false,
+              "type": "keyword"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "@timestamp": {
+          "type": "date"
+        },
+        "@version": {
+          "type": "keyword"
+        },
+        "geoip": {
+          "dynamic": true,
+          "properties": {
+            "asn": {
+              "type": "keyword",
+              "norms": false
+            },
+            "as_org": {
+              "type": "keyword",
+              "norms": false
+            },
+            "city_name": {
+              "type": "keyword",
+              "norms": false
+            },
+            "continent_code": {
+              "type": "keyword",
+              "norms": false
+            },
+            "country_code2": {
+              "type": "keyword",
+              "norms": false
+            },
+            "country_code3": {
+              "type": "keyword",
+              "norms": false
+            },
+            "country_name": {
+              "type": "keyword",
+              "norms": false
+            },
+            "ip": {
+              "type": "ip"
+            },
+            "latitude": {
+              "type": "float"
+            },
+            "location": {
+              "type": "geo_point"
+            },
+            "longitude": {
+              "type": "float"
+            },
+            "postal_code": {
+              "type": "keyword",
+              "norms": false
+            },
+            "region_code": {
+              "type": "keyword",
+              "norms": false
+            },
+            "region_name": {
+              "type": "keyword",
+              "norms": false
+            },
+            "timezone": {
+              "type": "keyword",
+              "norms": false
+            }
+          }
+        },
+        "category": {
+          "type": "keyword",
+          "norms": false
+        },
+        "class": {
+          "type": "keyword",
+          "norms": false
+        },
+        "ctx": {
+          "type": "keyword",
+          "norms": false
+        },
+        "dest": {
+          "type": "ip"
+        },
+        "destPort": {
+          "type": "integer"
+        },
+        "gwAction": {
+          "type": "keyword",
+          "norms": false
+        },
+        "gwMode": {
+          "type": "keyword",
+          "norms": false
+        },
+        "host": {
+          "type": "keyword",
+          "norms": false
+        },
+        "identity": {
+          "type": "keyword",
+          "norms": false
+        },
+        "logged_message": {
+          "type": "keyword",
+          "norms": false
+        },
+        "logging_host": {
+          "type": "keyword",
+          "norms": false
+        },
+        "logging_process": {
+          "type": "keyword",
+          "norms": false
+        },
+        "service": {
+          "type": "keyword",
+          "norms": false
+        },
+        "src": {
+          "type": "ip"
+        },
+        "src_locality": {
+          "type": "keyword",
+          "norms": false
+        },
+        "srcPort": {
+          "type": "integer"
+        },
+        "syslog_facility": {
+          "type": "keyword",
+          "norms": false
+        },
+        "syslog_facility_code": {
+          "type": "integer"
+        },
+        "syslog_pri": {
+          "type": "integer"
+        },
+        "syslog_severity": {
+          "type": "keyword",
+          "norms": false
+        },
+        "syslog_severity_code": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "aliases": {}
+}

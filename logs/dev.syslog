@@ -1,0 +1,1 @@
+<5>Oct 18 12:57:30 BRDC-2 kernel: [BlackRidge|Gateway|3.0.0.4619] class="Attribution" category="Unknown Identity" ctx="bump0" src="125.33.12.234" srcPort="25654" dest="5.149.112.53" destPort="23" identity="honeypot2Id" gwAction="DISCARD" gwMode="Monitor"

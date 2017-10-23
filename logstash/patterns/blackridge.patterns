@@ -1,0 +1,1 @@
+BMF_MSG ^\[[BL][lE][aE][cF]%{GREEDYDATA}\]\s+%{GREEDYDATA:[@metadata][bmf_payload]}$
