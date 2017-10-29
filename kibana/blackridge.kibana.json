@@ -1,0 +1,302 @@
+[
+  {
+    "_id": "AV9jnHic1CyOkloX_KrY",
+    "_type": "dashboard",
+    "_source": {
+      "title": "BlackRidge: Overview",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":4,\"size_y\":2,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"AV9jmGEl1CyOkloX_KZm\",\"col\":9,\"row\":6},{\"size_x\":4,\"size_y\":2,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"AV9jlG_X1CyOkloX_KIe\",\"col\":9,\"row\":2},{\"size_x\":4,\"size_y\":2,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"AV9jmNjm1CyOkloX_Kbl\",\"col\":1,\"row\":6},{\"size_x\":4,\"size_y\":2,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"AV9jmTSR1CyOkloX_Kc6\",\"col\":5,\"row\":6},{\"size_x\":4,\"size_y\":2,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"AV9jk9ZB1CyOkloX_KF1\",\"col\":5,\"row\":4},{\"size_x\":4,\"size_y\":2,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"AV9jlmJn1CyOkloX_KRC\",\"col\":1,\"row\":2},{\"size_x\":4,\"size_y\":2,\"panelIndex\":8,\"type\":\"visualization\",\"id\":\"AV9jlz6E1CyOkloX_KU-\",\"col\":5,\"row\":2},{\"size_x\":4,\"size_y\":2,\"panelIndex\":9,\"type\":\"visualization\",\"id\":\"AV9jmipB1CyOkloX_Khg\",\"col\":9,\"row\":4},{\"size_x\":4,\"size_y\":2,\"panelIndex\":10,\"type\":\"visualization\",\"id\":\"AV9jkzHW1CyOkloX_KDM\",\"col\":1,\"row\":4},{\"size_x\":12,\"size_y\":1,\"panelIndex\":11,\"type\":\"visualization\",\"id\":\"AV9jrfd_1CyOkloX_L2V\",\"col\":1,\"row\":1}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jopnA1CyOkloX_LFs",
+    "_type": "dashboard",
+    "_source": {
+      "title": "BlackRidge: Geo Location",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":4,\"size_y\":2,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"AV9jnpVx1CyOkloX_K0k\",\"col\":1,\"row\":2},{\"size_x\":4,\"size_y\":2,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"AV9jnxae1CyOkloX_K2k\",\"col\":1,\"row\":4},{\"size_x\":4,\"size_y\":2,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"AV9jmipB1CyOkloX_Khg\",\"col\":1,\"row\":6},{\"size_x\":8,\"size_y\":6,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"AV9joNbX1CyOkloX_K9z\",\"col\":5,\"row\":2},{\"size_x\":12,\"size_y\":1,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"AV9jrfd_1CyOkloX_L2V\",\"col\":1,\"row\":1}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-4\":{\"mapZoom\":2,\"mapCenter\":[12.039320557540572,13.359375]}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jq7vJ1CyOkloX_LtI",
+    "_type": "dashboard",
+    "_source": {
+      "title": "BlackRidge: Messages",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":3,\"size_y\":2,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"AV9jqgBy1CyOkloX_Ll4\",\"col\":1,\"row\":2},{\"size_x\":9,\"size_y\":2,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"AV9jqP2W1CyOkloX_LhS\",\"col\":4,\"row\":2},{\"size_x\":12,\"size_y\":5,\"panelIndex\":3,\"type\":\"search\",\"id\":\"AV9jptQz1CyOkloX_LYE\",\"col\":1,\"row\":4,\"columns\":[\"logging_host\",\"src\",\"dest\",\"service\",\"identity\",\"gwAction\"],\"sort\":[\"@timestamp\",\"desc\"]},{\"size_x\":12,\"size_y\":1,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"AV9jrfd_1CyOkloX_L2V\",\"col\":1,\"row\":1}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jptQz1CyOkloX_LYE",
+    "_type": "search",
+    "_source": {
+      "title": "BlackRidge: Messages",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "logging_host",
+        "src",
+        "dest",
+        "service",
+        "identity",
+        "gwAction"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jk9ZB1CyOkloX_KF1",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Destinations",
+      "visState": "{\"title\":\"BlackRidge: Destinations\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"dest\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Destination\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jkzHW1CyOkloX_KDM",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Sources",
+      "visState": "{\"title\":\"BlackRidge: Sources\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"src\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Source\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jmGEl1CyOkloX_KZm",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Autonomous Systems",
+      "visState": "{\"title\":\"BlackRidge: Autonomous Systems\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.as_org\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"AS\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jmTSR1CyOkloX_Kc6",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Countries",
+      "visState": "{\"title\":\"BlackRidge: Countries\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.country_name\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jlmJn1CyOkloX_KRC",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Gateways",
+      "visState": "{\"title\":\"BlackRidge: Gateways\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"logging_host\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Gateway\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jmNjm1CyOkloX_Kbl",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Cities",
+      "visState": "{\"title\":\"BlackRidge: Cities\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.city_name\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"City\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jlG_X1CyOkloX_KIe",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Categories",
+      "visState": "{\"title\":\"BlackRidge: Categories\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"category\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Category\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jlz6E1CyOkloX_KU-",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Locality",
+      "visState": "{\"title\":\"BlackRidge: Locality\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"src_locality\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Locality\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jmipB1CyOkloX_Khg",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Services",
+      "visState": "{\"title\":\"BlackRidge: Services\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"service\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Service\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jlMmk1CyOkloX_KKc",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Classes",
+      "visState": "{\"title\":\"BlackRidge: Classes\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"class\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Class\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jqP2W1CyOkloX_LhS",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Messages by Action",
+      "visState": "{\"title\":\"BlackRidge: Messages by Action\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{\"text\":\"Occurrence\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Messages\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Messages\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"histogram\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Messages\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Occurrence\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"gwAction\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Action\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"FORWARD\":\"#7EB26D\",\"DISCARD\":\"#E24D42\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9joNbX1CyOkloX_K9z",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Geo Location",
+      "visState": "{\"title\":\"BlackRidge: Geo Location\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Heatmap\",\"isDesaturated\":true,\"addTooltip\":true,\"heatMaxZoom\":\"16\",\"heatMinOpacity\":\"0.32\",\"heatRadius\":\"24\",\"heatBlur\":\"16\",\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\",\"options\":{\"version\":\"1.3.0\",\"layers\":\"0\",\"format\":\"image/png\",\"transparent\":true,\"attribution\":\"Maps provided by USGS\",\"styles\":\"\"}},\"type\":\"tile_map\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true,\"useGeocentroid\":true,\"precision\":2,\"customLabel\":\"Location\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jqgBy1CyOkloX_Ll4",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Message Count",
+      "visState": "{\"title\":\"BlackRidge: Message Count\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":false,\"gaugeType\":\"Metric\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"useRange\":false,\"colorsRange\":[{\"from\":0,\"to\":100}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"simple\",\"style\":{\"fontSize\":\"36\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\"}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Messages\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jnpVx1CyOkloX_K0k",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Countries and Cities",
+      "visState": "{\"title\":\"BlackRidge: Countries and Cities\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.country_name\",\"size\":25,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.city_name\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"City\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jnxae1CyOkloX_K2k",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Destinations and Sources",
+      "visState": "{\"title\":\"BlackRidge: Destinations and Sources\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"dest\",\"size\":25,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Destination\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"src\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Source\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"blackridge-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AV9jrfd_1CyOkloX_L2V",
+    "_type": "visualization",
+    "_source": {
+      "title": "BlackRidge: Navigation",
+      "visState": "{\"title\":\"BlackRidge: Navigation\",\"type\":\"markdown\",\"params\":{\"type\":\"markdown\",\"markdown\":\"[Overview](#/dashboard/AV9jnHic1CyOkloX_KrY) | [Geo Location](#/dashboard/AV9jopnA1CyOkloX_LFs) | [Messages](#/dashboard/AV9jq7vJ1CyOkloX_LtI)\\n***\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  }
+]

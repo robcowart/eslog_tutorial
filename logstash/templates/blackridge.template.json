@@ -1,6 +1,6 @@
 {
   "order": 0,
-  "version": 56301,
+  "version": 17102801,
   "template": "blackridge-*",
   "settings": {
     "index": {
@@ -14,171 +14,57 @@
     "_default_": {
       "dynamic_templates": [
         {
-          "message_field": {
-            "match_mapping_type": "string",
-            "path_match": "message",
-            "mapping": {
-              "norms": false,
-              "type": "text"
-            }
-          }
-        },
-        {
           "string_fields": {
             "match_mapping_type": "string",
             "match": "*",
-            "mapping": {
-              "norms": false,
-              "type": "keyword"
-            }
+            "mapping": { "type": "keyword" }
           }
         }
       ],
       "properties": {
-        "@timestamp": {
-          "type": "date"
-        },
-        "@version": {
-          "type": "keyword"
-        },
+        "@timestamp": { "type": "date" },
+        "@version": { "type": "keyword" },
         "geoip": {
-          "dynamic": true,
           "properties": {
-            "asn": {
-              "type": "keyword",
-              "norms": false
-            },
-            "as_org": {
-              "type": "keyword",
-              "norms": false
-            },
-            "city_name": {
-              "type": "keyword",
-              "norms": false
-            },
-            "continent_code": {
-              "type": "keyword",
-              "norms": false
-            },
-            "country_code2": {
-              "type": "keyword",
-              "norms": false
-            },
-            "country_code3": {
-              "type": "keyword",
-              "norms": false
-            },
-            "country_name": {
-              "type": "keyword",
-              "norms": false
-            },
-            "ip": {
-              "type": "ip"
-            },
-            "latitude": {
-              "type": "float"
-            },
-            "location": {
-              "type": "geo_point"
-            },
-            "longitude": {
-              "type": "float"
-            },
-            "postal_code": {
-              "type": "keyword",
-              "norms": false
-            },
-            "region_code": {
-              "type": "keyword",
-              "norms": false
-            },
-            "region_name": {
-              "type": "keyword",
-              "norms": false
-            },
-            "timezone": {
-              "type": "keyword",
-              "norms": false
-            }
+            "asn": { "type": "keyword" },
+            "as_org": { "type": "keyword" },
+            "city_name": { "type": "keyword" },
+            "continent_code": { "type": "keyword" },
+            "country_code2": { "type": "keyword" },
+            "country_code3": { "type": "keyword" },
+            "country_name": { "type": "keyword" },
+            "ip": { "type": "ip" },
+            "latitude": { "type": "float" },
+            "location": { "type": "geo_point" },
+            "longitude": { "type": "float" },
+            "postal_code": { "type": "keyword" },
+            "region_code": { "type": "keyword" },
+            "region_name": { "type": "keyword" },
+            "timezone": { "type": "keyword" }
           }
         },
-        "category": {
-          "type": "keyword",
-          "norms": false
-        },
-        "class": {
-          "type": "keyword",
-          "norms": false
-        },
-        "ctx": {
-          "type": "keyword",
-          "norms": false
-        },
-        "dest": {
-          "type": "ip"
-        },
-        "destPort": {
-          "type": "integer"
-        },
-        "gwAction": {
-          "type": "keyword",
-          "norms": false
-        },
-        "gwMode": {
-          "type": "keyword",
-          "norms": false
-        },
-        "host": {
-          "type": "keyword",
-          "norms": false
-        },
-        "identity": {
-          "type": "keyword",
-          "norms": false
-        },
-        "logged_message": {
-          "type": "keyword",
-          "norms": false
-        },
-        "logging_host": {
-          "type": "keyword",
-          "norms": false
-        },
-        "logging_process": {
-          "type": "keyword",
-          "norms": false
-        },
-        "service": {
-          "type": "keyword",
-          "norms": false
-        },
-        "src": {
-          "type": "ip"
-        },
-        "src_locality": {
-          "type": "keyword",
-          "norms": false
-        },
-        "srcPort": {
-          "type": "integer"
-        },
-        "syslog_facility": {
-          "type": "keyword",
-          "norms": false
-        },
-        "syslog_facility_code": {
-          "type": "integer"
-        },
-        "syslog_pri": {
-          "type": "integer"
-        },
-        "syslog_severity": {
-          "type": "keyword",
-          "norms": false
-        },
-        "syslog_severity_code": {
-          "type": "integer"
-        }
+        "category": { "type": "keyword" },
+        "class": { "type": "keyword" },
+        "ctx": { "type": "keyword" },
+        "dest": { "type": "ip" },
+        "destPort": { "type": "integer" },
+        "gwAction": { "type": "keyword" },
+        "gwMode": { "type": "keyword" },
+        "host": { "type": "keyword" },
+        "identity": { "type": "keyword" },
+        "logged_message": { "type": "keyword" },
+        "logging_host": { "type": "keyword" },
+        "logging_process": { "type": "keyword" },
+        "message": { "type": "text" },
+        "service": { "type": "keyword" },
+        "src": { "type": "ip" },
+        "src_locality": { "type": "keyword" },
+        "srcPort": { "type": "integer" },
+        "syslog_facility": { "type": "keyword" },
+        "syslog_facility_code": { "type": "integer" },
+        "syslog_pri": { "type": "integer" },
+        "syslog_severity": { "type": "keyword" },
+        "syslog_severity_code": { "type": "integer" }
       }
     }
   },
