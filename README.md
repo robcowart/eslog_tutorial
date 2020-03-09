@@ -23,3 +23,13 @@ The files named `logstash/##_blackridge.logstash.conf` correspond to the step fo
 The `logs` directory includes two files. `dev.syslog` contains a single syslog message that will be used as we develop the Logstash pipeline. `data.syslog` will be loaded once the pipeline is complete. It contains seven days of data, which we can analyze using Kibana dashboards.
 
 If you find this material helpful or have any recommended improvements I would appreciate hearing your feedback.
+
+## Getting started with the Elastic Stack
+
+If you are new to the Elastic Stack, this video goes beyond a simple default installation of Elasticsearch and Kibana. It discusses real-world best practices for hardware sizing and configuration, providing production-level performance and reliability.
+
+[![0003_es_install](https://user-images.githubusercontent.com/10326954/76195457-9ea2d580-61e8-11ea-8578-8fb39908afec.png)](https://www.youtube.com/watch?v=gZb7HpVOges)
+
+Additionally local SSD storage should be considered as _*mandatory*_! For an in-depth look at how different storage options compare, and in particular how bad HDD-based storage is for Elasticsearch (even in multi-drive RAID0 configurations) you should watch this video...
+
+[![0001_es_storage](https://user-images.githubusercontent.com/10326954/76195348-61d6de80-61e8-11ea-951d-1694d2e0392b.png)](https://www.youtube.com/watch?v=nKUpfJCBiS4)
